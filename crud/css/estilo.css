@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    
+}
+
+.section {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    background-color: #80808014;
+    margin-top: 50px;
+   
+}
+
+.caixa {
+    display: flex;
+    
+}
+
+.caixa-box {
+    display: flex;
+    padding: 150px;
+    width: 30%;
+    margin: 5%;
+    background-color: #FFB300;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.caixa-box a:hover {
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+
+input.invalido {
+    border: 1px solid red;
+}
